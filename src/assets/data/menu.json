@@ -1,0 +1,31 @@
+[{
+        "icon": "home",
+        "name": "Inicio",
+        "redirecTo": "/action-shet"
+    },
+    {
+        "icon": "information-circle",
+        "name": "Acerca de",
+        "redirecTo": "/avatar"
+    },
+    {
+        "icon": "paper",
+        "name": "Mis Cursos",
+        "redirecTo": "/cursos"
+    },
+    {
+        "icon": "person",
+        "name": "Estudiantes",
+        "redirecTo": "/estudiantes"
+    },
+    {
+        "icon": "book",
+        "name": "Encuesta",
+        "redirecTo": "/encuesta"
+    },
+    {
+        "icon": "help-circle",
+        "name": "Ayuda",
+        "redirecTo": "/ayuda"
+    }
+]

@@ -1,0 +1,20 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-buttons slot="start">
+            <ion-back-button defaultHref="/"></ion-back-button>
+        </ion-buttons>
+        <ion-title>estudiantes</ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-item *ngFor="let item of usuarios | async">
+        <ion-label>
+            <h3> {{ item.name }}</h3>
+            <p>{{ item.email }}</p>
+        </ion-label>
+        <ion-label slot="end">
+            {{ item.phone }}
+        </ion-label>
+    </ion-item>
+</ion-content>
