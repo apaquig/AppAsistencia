@@ -7,14 +7,14 @@ import { Observable } from 'rxjs';
   templateUrl: './estudiantes.page.html',
   styleUrls: ['./estudiantes.page.scss'],
 })
-export class EstudiantesPage implements OnInit {
+export class EstudiantesPage {
 
   usuarios: Observable<any>;
 
-  constructor( private dataService: DataService) { }
+  constructor( public dataService: DataService) { }
 
-  ngOnInit() {
-  this.usuarios = this.dataService.getUsers();
-  }
+  // ngOnInit() {
+  // this.usuarios = this.dataService.getUsers();
+  // }
 
 }
