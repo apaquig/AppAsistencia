@@ -12,6 +12,7 @@ const routes: Routes = [
   { path: 'encuesta', loadChildren: './pages/encuesta/encuesta.module#EncuestaPageModule' },
   { path: 'ayuda', loadChildren: './pages/ayuda/ayuda.module#AyudaPageModule' },
   { path: 'cursos', loadChildren: './pages/cursos/cursos.module#CursosPageModule' },
+  { path: 'asistencia', loadChildren: './pages/asistencia/asistencia.module#AsistenciaPageModule' },
 ];
 
 @NgModule({
